@@ -78,7 +78,7 @@ export async function POST(req: Request) {
                     success: true,
                     message: "User registered successfully. Please check your email to verify your account",
                 },
-                { status: 200 }
+                { status: 201 }
             );
         } else {
             return Response.json(
